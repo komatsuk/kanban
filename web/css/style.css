@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*
+ * /css/style.css
+ *
+ *  
+ *  updated --- 2014/10/24
+ */
+.navbar-header {
+	float: none;
+}
+ .glyphicon-qrcode:before {
+	position: relative;
+	top: 2px;
+	left: -5px;
+}
+
+
+
+#arrow {
+	margin: -101px 0 0 -59px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}

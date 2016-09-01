@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="ja">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta http-equiv="content-language" content="ja">
+	<title>DeviceMotion Event Demo</title>
+	<link rel="stylesheet" href="common/css/common.css" />
+	<link rel="stylesheet" href="common/css/normalize.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<script src="common/js/jquery-1.11.1.min.js"></script>
+	<script src="common/js/jquery.transit.min.js"></script>
+	<script src="js/motion.js"></script>
+
+
+	<meta name="description" content="The sample of WebSocket API">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="common/css/bootstrap.css">
+
+</head>
+<body>
+<div class="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<section>
+						<h2 class="page-header mt00"><small>WebSocket</small></h2>
+						<div class="form-group">
+							<textarea id="dumpAreaWebSocket" class="form-control" rows="6" readonly>APIの実行結果をここに表示します。</textarea>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon">送信内容</span>
+								<input id="msg" type="text" class="form-control" placeholder="送信内容を入力してください。" value="TEST_MESSAGE">
+							</div>
+						</div>
+						<ul class="list-unstyled list-marginBtm">
+							<li><a id="openWebSocketBtn" class="btn btn-primary btn-block">open</a></li>
+							<li><a id="sendWebSocketBtn" class="btn btn-primary btn-block">メッセージ送信</a></li>
+							<li><a id="closeWebSocketBtn" class="btn btn-primary btn-block">close</a></li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

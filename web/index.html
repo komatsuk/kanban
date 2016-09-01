@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>Barcode API</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta charset="UTF-8">
+	<meta name="description" content="The sample of Barcode API">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="stylesheet" href="common/css/bootstrap.css">
+	<link rel="stylesheet" href="common/css/cmn_style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/index.css" />
+
+
+	<!-- applicanを読み込む -->
+	<script src="js/applican-1.5.js"></script>
+	<script src="js/barcodeSample.js"></script>
+
+
+</head>
+
+<body>
+	<header class="head">
+		<h1 class="navbar-header"><small>QR　reading</small></h1>
+	</header>
+
+	<div class="main pt05">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<textarea id="dumpAreaBarcode" class="form-control" rows="8" readonly>APIの実行結果をここに表示します。</textarea>
+					</div>
+					<button type="button" class="btn btn-primary btn-block" id="barcodeBtn"><span class="glyphicon glyphicon-qrcode">QRコード読み取り</span></button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<input id="vi" type="button" onclick="location.href='motionWeb.html'"value="Gesture">
+</body>
+</html>
